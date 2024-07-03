@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/nesiabg"
+    tools:context=".maps.DetailMaps"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/map_bg"
+            android:layout_width="0dp"
+            android:layout_height="309dp"
+            android:src="@drawable/ascentbg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_pic"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/asent"
+            app:layout_constraintBottom_toBottomOf="@+id/map_name"
+            app:layout_constraintStart_toStartOf="@+id/map_bg" />
+
+        <TextView
+            android:id="@+id/map_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/hammersmith_one"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/map_pic"
+            app:layout_constraintTop_toBottomOf="@+id/map_bg"
+            tools:text="Map Name" />
+
+        <TextView
+            android:id="@+id/map_desc"
+            android:layout_width="0dp"
+            android:layout_height="800dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/rubik_light"
+            android:justificationMode="inter_word"
+            android:text="Deskripsi map akan ditampilkan di sini"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/map_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

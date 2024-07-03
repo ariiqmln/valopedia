@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413830770738",
+    "project_id": "valopedia-6fe42",
+    "storage_bucket": "valopedia-6fe42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413830770738:android:371b54c7f9afc8012bcc2b",
+        "android_client_info": {
+          "package_name": "com.dicoding.myrecyclerview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiBf-nqEQ3n_WFnCNEB0rXrBMU8WKIcMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

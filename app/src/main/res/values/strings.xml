@@ -1,0 +1,389 @@
+<resources>
+    <string name="app_name">VALONESIA</string>
+    <string name="heroes_name">NAMA AGENT</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="search">Pencarian</string>
+    <string name="welcome_nama_app">VALONESIA</string>
+    <string name="desc_welcome">Tempat Informasi Mengenai Agent Valorant Indonesia</string>
+    <string name="waktumulaisound">0.00</string>
+    <string name="waktujmlh_suara">%02d</string>
+    <string name="btn_intro">Masuk Aplikasi</string>
+    <string name="map_name">Nama Maps</string>
+
+    <integer-array name="image_maps_bg">
+        <item>@drawable/bindbg</item>
+        <item>@drawable/havenbg</item>
+        <item>@drawable/ascentbg</item>
+        <item>@drawable/splitbg</item>
+        <item>@drawable/fracturebg</item>
+        <item>@drawable/breezebg</item>
+        <item>@drawable/pearlbg</item>
+        <item>@drawable/lotusbg</item>
+        <item>@drawable/sunsetbg</item>
+        <item>@drawable/iceboxbg</item>
+        <item>@drawable/abyssbg</item>
+    </integer-array>
+
+    <integer-array name="image_maps">
+        <item>@drawable/bind</item>
+        <item>@drawable/haven</item>
+        <item>@drawable/asent</item>
+        <item>@drawable/split</item>
+        <item>@drawable/fracture</item>
+        <item>@drawable/breeze</item>
+        <item>@drawable/ppearl</item>
+        <item>@drawable/lotus</item>
+        <item>@drawable/sunset</item>
+        <item>@drawable/icebox</item>
+        <item>@drawable/abyss</item>
+    </integer-array>
+
+    <string-array name="nama_map">
+        <item>Bind</item>
+        <item>Haven</item>
+        <item>Ascent</item>
+        <item>Split</item>
+        <item>Fracture</item>
+        <item>Breeze</item>
+        <item>Pearl</item>
+        <item>Lotus</item>
+        <item>Sunset</item>
+        <item>Ice Box</item>
+        <item>Abyss</item>
+    </string-array>
+
+    <string-array name="desc_map_tamnel">
+        <item>Dua situs. Tidak ada tengah. Harus memilih kiri atau kanan. Apa yang akan terjadi kemudian? Keduanya menawarkan jalur langsung untuk penyerang dan sepasang teleporter satu arah membuatnya lebih mudah untuk mengapit..</item>
+        <item>Di bawah biara yang terlupakan, keributan muncul dari Agen-agen yang bersaing untuk mengendalikan tiga lokasi. Ada lebih banyak wilayah untuk dikendalikan, tetapi para pemain bertahan dapat menggunakan real estat ekstra untuk melakukan serangan agresif.</item>
+        <item>Sebuah taman bermain terbuka untuk perang kecil memperebutkan posisi dan membagi dua lokasi di Ascent. Setiap lokasi dapat dibentengi dengan pintu bom yang tidak dapat dipulihkan; setelah mereka jatuh, Anda harus menghancurkannya atau menemukan cara lain. Rebut wilayah sesedikit mungkin.</item>
+        <item>Jika Anda ingin pergi jauh, Anda harus naik ke atas. Sepasang situs yang dipisahkan oleh pusat yang ditinggikan memungkinkan pergerakan cepat dengan menggunakan dua tali pengangkat. Setiap lokasi dibangun dengan menara yang menjulang tinggi yang penting untuk kontrol. Ingatlah untuk melihat ke atas sebelum semuanya meledak setinggi langit.</item>
+        <item>Sebuah fasilitas penelitian rahasia yang terpecah karena percobaan radianit yang gagal. Dengan opsi pertahanan yang terbagi seperti peta, pilihan ada di tangan Anda: hadapi para penyerang di wilayah mereka sendiri atau bertahan di palka untuk menghadapi serangan.</item>
+        <item>Nikmati pemandangan reruntuhan bersejarah atau gua tepi pantai di surga tropis ini. Namun, bawalah pakaian pelindung. Anda akan membutuhkannya untuk ruang terbuka yang luas dan pertempuran jarak jauh. Perhatikan sisi-sisi Anda dan ini akan menjadi sangat mudah.</item>
+        <item>Para penyerang menekan para pemain bertahan di peta dua lokasi yang berada di kota bawah laut yang semarak ini. Pearl adalah peta yang digerakkan oleh geografis tanpa mekanik. Ikuti pertarungan melalui sayap tengah yang ringkas atau sayap jarak jauh di peta pertama kami yang berlatar Omega Earth.</item>
+        <item>Struktur misterius yang menjadi tempat saluran astral memancarkan kekuatan kuno. Pintu batu besar menyediakan berbagai peluang pergerakan dan membuka jalan menuju tiga situs misterius.</item>
+        <item>Sebuah bencana di fasilitas kerajaan lokal mengancam untuk menelan seluruh lingkungan. Mampirlah ke truk makanan favoritmu lalu bertarunglah melintasi kota dalam peta tiga jalur tradisional ini.</item>
+        <item>Medan pertempuran Anda berikutnya adalah situs penggalian rahasia Kerajaan yang disusul oleh Kutub Utara. Dua lokasi pabrik yang dilindungi oleh salju dan logam membutuhkan kemahiran horizontal. Manfaatkan garis-garis zip dan mereka tidak akan pernah melihat kedatangan Anda.</item>
+        <item>Abyss adalah map pertama di VALORANT yang tidak memiliki batas luar dan death drop di Mid, sehingga memungkinkan para pemain untuk jatuh dari map hingga tewas.</item>
+    </string-array>
+
+    <string-array name="desc_map">
+        <item>Fitur unik Bind adalah tidak memiliki bagian tengah, melainkan memiliki dua teleporter satu arah. Satu membawa pemain dari A Short ke B Short dan yang lainnya membawa pemain dari B Long ke A Lobby.
+        \n\n Pemain menggunakan teleporter dengan berjalan ke bagian dinding yang ditempati oleh pintu masuk teleportasi. Mereka kemudian akan langsung tiba di ruang keluar kecil yang pemain tinggalkan dengan berjalan menuju pintu keluar ruangan. Pintu ini tertutup secara default dan hanya dapat dibuka oleh pemain di dalam ruang keluar dengan berjalan ke arahnya, di mana pintu tersebut akan terbuka secara otomatis. Pemain yang berada di luar ruang keluar tidak dapat membuka pintu ini, tetapi dapat ditembus dengan tembakan.
+        \n\n Objek lain juga dapat dikirim melalui teleporter jika bersentuhan dengan pintu masuk teleporter. Mereka akan mempertahankan kecepatan yang mereka miliki sebelum diteleportasi dan dapat membuka pintu dan meninggalkan ruang keluar jika mereka melakukan perjalanan yang cukup jauh untuk memicu sensor pintu. Objek termasuk kemampuan, lonjakan, dan senjata yang dijatuhkan.</item>
+        <item>Fitur Haven termasuk situs lonjakan ketiga tambahan. Hal ini tidak memengaruhi jumlah bola pamungkas di peta; dua bola pamungkas Haven ada di A Long dan C Long (Naga).
+        \n\n Pintu-pintu di Mid juga memiliki panel yang dapat dihancurkan yang menutupinya. Meskipun utuh, panel tersebut menyerap kerusakan dan tidak dapat ditembus oleh tembakan. Namun, panel-panel tersebut masing-masing memiliki 400 HP dan dapat rusak, dengan indikator berwarna yang menyiratkan berapa banyak HP yang tersisa (mulai dari biru, kemudian berubah menjadi kuning dan kemudian merah saat menerima lebih banyak kerusakan). Panel-panel tersebut pada akhirnya dapat dihancurkan agar pemain dapat menerobos masuk melalui pintu-pintu ini selama sisa ronde.</item>
+        <item>Ascent memiliki beberapa fitur unik yang membuatnya menarik. Setiap situs memiliki pintu mekanis, yaitu A Link untuk A dan Market untuk B, yang dibuka di awal setiap ronde. Pintu-pintu ini dapat ditutup atau dibuka dengan sakelar yang terletak di dekat pintu di A dan di atas meja di Toolshed di B. Pintu-pintu ini tidak dapat ditembus saat ditutup, namun memiliki 500 HP, sehingga bisa dirusak dan akhirnya dihancurkan. Setelah dihancurkan, pintu akan tetap terbuka selama sisa ronde.
+            \n\n \t\t Selain itu, dua dinding yang memisahkan Courtyard dari Link memiliki panel yang dapat dihancurkan. Panel ini menyerap kerusakan dan tidak dapat ditembus oleh tembakan, tetapi memiliki 400 HP. Indikator warna (biru, kuning, merah) menunjukkan jumlah HP yang tersisa. Panel-panel ini pada akhirnya bisa dihancurkan, memungkinkan pemain untuk menerobos tembok selama sisa ronde.
+            \n\n \t\t Jendela di Ascent juga memiliki panel kaca yang dapat dihancurkan yang menghadap ke Taman. Kaca ini akan segera hancur setelah terkena peluru atau proyektil kemampuan tertentu, seperti Blaze milik Phoenix. Namun, kemampuan yang harus dikendalikan agen atau bergerak di tanah, seperti Boom Bot milik Raze, tidak akan memecahkan kaca.</item>
+        <item>Split adalah peta pertama yang menggunakan ascender. Ada tiga set di peta ini:
+        \n\n Dua yang memungkinkan pemain untuk naik dari Selokan ke Lobi A
+        \n\n Satu yang memungkinkan pemain untuk naik dari B Neraka ke B Tower
+        \n\n Empat yang memungkinkan pemain menavigasi melalui Ventilasi</item>
+        <item>Desain unik Fracture membagi peta menjadi empat kuadran netral; empat area tengah di antara kuadran yang berisi situs dan pemijahan Attacker, dan zona tengah tempat pemijahan Defender. Pada Round Start, Defender dapat mengakses situs-situs yang berada di sisi berlawanan dari peta. Semua Attacker bertelur di satu area, tetapi dapat mencapai sisi lain dengan menggunakan garis batas lintas peta yang membawa mereka ke bawah Defender Spawn. Selama Fase Beli, Pembela tidak dapat mendengar Penyerang menggunakan garis-garis tersebut.
+        \n\n Setiap kuadran berisi satu bola, yang berarti Fracture memiliki total empat bola, berbeda dengan total dua bola yang biasa ada di sebagian besar peta lainnya.
+        \n\n Aula berisi pintu otomatis yang berfungsi mirip dengan pintu ruang keluar untuk teleporter Bind, karena akan langsung terbuka begitu pemain cukup dekat, mengeluarkan isyarat audio yang keras, dan juga akan terbuka untuk benda apa pun yang dilemparkan ke arahnya. Namun, pintu di Fracture ini juga akan terbuka untuk entitas di kedua sisi pintu.</item>
+        <item>Fitur-fitur Breeze ada di sisi A peta, sebagian besar berkaitan dengan A Hall. Ada tali untuk membawa pemain ke Aula. Di sisi bertahan, pemain dapat menggunakan tali di bagian belakang Situs untuk naik ke Jembatan dan masuk ke Aula, dan di sisi menyerang, pemain dapat menggunakan tali di Lobi untuk masuk ke Aula.
+        \n\n Sebuah Situs memiliki pintu mekanis yang tidak bisa ditembus dan tidak bisa dihancurkan yang mengarah ke Aula yang dapat dibuka dan ditutup menggunakan sakelar di kedua sisinya. Pintu ditutup pada awal setiap ronde.
+        \n\n Di sisi Attacker Hall terdapat saluran satu arah juga dikenal sebagai ventilasi yang dapat digunakan untuk menuju Mid. Pemain dan benda-benda lain dapat melakukan perjalanan melalui parasut, yang berisi pintu horizontal otomatis. Pintu ini tidak dapat dibuka dari bawah di pintu keluar parasut di Mid, mencegah agen tertentu menggunakan kemampuan mobilitas untuk menaiki parasut dari Mid ke Aula, serta mencegah objek lain terlempar ke atas parasut. Isyarat audio yang keras akan terdengar setiap kali pintu terbuka untuk membiarkan sesuatu bergerak ke bawah parasut.</item>
+        <item>Sunset adalah salah satu peta yang lebih tradisional dengan dua situs dan tiga jalur. Salah satu fitur tambahannya adalah pintu mekanis yang terdapat di antara B Market dan Mid Courtyard. Pemain dapat menggunakan sakelar di sisi Pasar untuk menutup atau membukanya. Pintu ini tidak dapat ditembus saat tertutup tetapi memiliki 500 HP, memungkinkan pemain untuk merusak dan akhirnya menghancurkannya. Setelah dihancurkan, pintu tersebut akan tetap terbuka secara permanen selama sisa ronde.</item>
+        <item>Lotus berisi beberapa fitur yang tersebar di seluruh peta. Ini adalah peta tiga lokasi kedua VALORANT. Hal ini tidak memengaruhi jumlah bola pamungkas di peta; dua bola pamungkas Lotus ada di A Main dan C Mound.
+        \n\n Dua fitur peta terdapat di bagian belakang A Site. Sebuah tali pemanjat tersedia untuk membawa pemain dari A Site ke A Top. Ketika pemain turun dari A Top ke A Drop, kejatuhan mereka akan teredam, asalkan mereka tidak berlari dan mendarat terlalu jauh dari drop.
+        \n\n Fitur unik dari Lotus adalah pintu yang dapat berputar. Ada satu pintu di sisi A yang berdiri di antara A Main dan A Tree, dan satu lagi di sisi C yang berdiri di antara C Mound dan B Main. Pintu dapat diaktifkan dari kedua sisi menggunakan tombol sakelar, di mana pintu akan berputar 180° selama 10 detik, memberikan pemain jendela kecil di mana mereka dapat melewati ke sisi lain.
+        \n\n Dinding yang dapat dihancurkan juga berdiri di antara A Main dan A Link. Meskipun utuh, tembok ini menyerap kerusakan dan tidak dapat ditembus oleh tembakan. Namun, tembok ini memiliki 400 HP dan dapat rusak, dengan indikator berwarna di atasnya yang menyiratkan berapa banyak HP yang tersisa (mulai dari biru, kemudian berubah menjadi kuning dan kemudian merah karena menerima lebih banyak kerusakan). Tembok ini pada akhirnya dapat dihancurkan untuk memungkinkan pemain melewati lorong antara A Main dan A Link selama sisa ronde.</item>
+        <item>Sunset adalah salah satu peta VALORANT yang lebih tradisional dengan dua situs dan tiga jalur. Salah satu fitur tambahannya adalah pintu mekanis yang terdapat di antara B Market dan Mid Courtyard. Pemain dapat menggunakan sakelar di sisi Pasar untuk menutup atau membukanya. Pintu ini tidak dapat ditembus saat tertutup tetapi memiliki 500 HP, memungkinkan pemain untuk merusak dan akhirnya menghancurkannya. Setelah dihancurkan, pintu tersebut akan tetap terbuka secara permanen selama sisa ronde.</item>
+        <item>Icebox adalah peta pertama yang memperkenalkan garis-garis horizontal, terlihat di A Site. Setiap situs Icebox adalah ruang pertempuran yang kompleks yang menampilkan banyak perlindungan dan vertikalitas. Map ini menekankan pada pertempuran kecil, bidikan yang tajam, dan permainan yang adaptif.
+        \n\n Ini juga merupakan peta pertama di mana lokasi pabrik memiliki tingkat ketinggian yang berbeda. Kedua lokasi tersebut berisi sarang yang dapat dimasuki pemain dengan menggunakan tali dan kemudian menanam paku di lantai sarang.</item>
+        <item>Abyss adalah map pertama di VALORANT yang tidak memiliki batas luar dan death drop di Mid, sehingga memungkinkan pemain untuk jatuh dari map hingga tewas. Beberapa bagian dari map hanya dapat diakses dengan melompati drop ini; posisi Danger dan Secret adalah tepian sempit di batas luar map yang digunakan sebagai lompatan pintas. Di Mid, pemain juga hanya dapat mencapai Catwalk langsung dari Top atau Library dengan melompati death drop di Mid ke ascender.
+        \n\n Abyss memiliki dua ascender lainnya, satu untuk membawa pemain dari A Site ke A Tower dan yang lainnya untuk membawa pemain dari B Main ke Mid Bend.
+        \n\n Kedua pintu masuk ke Vent diblokir oleh pintu yang menyerap kerusakan dan tembakan saat masih utuh. Pintu-pintu tersebut memiliki 120 HP dengan indikator berwarna untuk menunjukkan berapa banyak HP yang tersisa (mulai dari biru, kemudian berubah menjadi kuning dan kemudian merah karena menerima lebih banyak kerusakan). Setelah dihancurkan, lorong akan tetap bersih selama sisa ronde.</item>
+    </string-array>
+
+    <string-array name="nama_weapons">
+        <item>Vandal</item>
+        <item>Phantom</item>
+        <item>Spectre</item>
+        <item>Stinger</item>
+        <item>Judge</item>
+        <item>Bucky</item>
+        <item>BullDog</item>
+        <item>Guardian</item>
+        <item>Marshal</item>
+        <item>OutLaw</item>
+        <item>Operator</item>
+        <item>Ares</item>
+        <item>Odin</item>
+        <item>Classic</item>
+        <item>Shorty</item>
+        <item>Frenzy</item>
+        <item>Ghost</item>
+        <item>Sheriff</item>
+        <item>Melee</item>
+    </string-array>
+
+    <integer-array name="image_weapon">
+        <item>@drawable/vandal</item>
+        <item>@drawable/phantom</item>
+        <item>@drawable/spectre</item>
+        <item>@drawable/stinger</item>
+        <item>@drawable/judge</item>
+        <item>@drawable/bucky</item>
+        <item>@drawable/bulldog</item>
+        <item>@drawable/guardian</item>
+        <item>@drawable/marshal</item>
+        <item>@drawable/marshal</item>
+        <item>@drawable/operator</item>
+        <item>@drawable/ares</item>
+        <item>@drawable/odin</item>
+        <item>@drawable/classic</item>
+        <item>@drawable/shorty</item>
+        <item>@drawable/frenzy</item>
+        <item>@drawable/ghost</item>
+        <item>@drawable/sheriff</item>
+        <item>@drawable/melee</item>
+    </integer-array>
+
+    <string-array name="data_name">
+        <item>Reyna</item>
+        <item>Jett</item>
+        <item>Yoru</item>
+        <item>Phoenix</item>
+        <item>Raze</item>
+        <item>Neon</item>
+        <item>Iso</item>
+        <item>Viper</item>
+        <item>Brimstone</item>
+        <item>Omen</item>
+        <item>Astra</item>
+        <item>Harbour</item>
+        <item>Clove</item>
+        <item>Cypher</item>
+        <item>Killjoy</item>
+        <item>Sage</item>
+        <item>Chamber</item>
+        <item>Deadlock</item>
+        <item>Sova</item>
+        <item>Breach</item>
+        <item>Skye</item>
+        <item>Kayo</item>
+        <item>Fade</item>
+        <item>Gecko</item>
+    </string-array>
+
+    <string-array name="data_tamnel">
+        <item>Are those our enemies? This wont take long.</item>
+        <item>Think you can keep up? Who am I kidding? You know you cannot keep up.</item>
+        <item>Five enemies. Five for me, none for anyone else.</item>
+        <item>Yes, yes, its me, autographs if we survive yeah.</item>
+        <item>I promise Ill get em. Might take down a city block along the way but...hey. A wins a win.</item>
+        <item>You made me care. Big mistake.</item>
+        <item>One minute, finding a playlist. *humming* Ah, perfect.</item>
+        <item>They call me a monster. Shall I prove them right?</item>
+        <item>Sage, remember that you cannot save everyone. We save who we can, thats enough.</item>
+        <item>If I must live in this nightmare my enemies might as well join me.</item>
+        <item>You can tell a persons character by their first action. Check me then, eh?</item>
+        <item>Look at us! Ive never seen a more beautiful group of heavily armed soldiers.</item>
+        <item>Its fun being a secret agent and all, but I really hope that theres an alternate universe out there where Im just growing old with a bunch of cats.</item>
+        <item>I will stop anyone who tries to come through. I must keep my secrets with me.</item>
+        <item>Dont overthink it, thats my job.</item>
+        <item>I wasnt strong enough before. But now, now I am strong enough for us all.</item>
+        <item>None of this "a win is a win" nonsense. We should win big and look good doing it.</item>
+        <item>Ready up! First, we put them on their heels, then, we put them in the ground.</item>
+        <item>I believe in all of you, like I believe in myself.</item>
+        <item>Been pulling jobs like this for years. Risky? Sure. But never boring.</item>
+        <item>We know what were doing. Trust each other and well be fine.</item>
+        <item>We have one job; save this Earth. No excuses.</item>
+        <item>It doesnt matter where they hide, Ill find them. I always find them.</item>
+        <item>Okay lil homies, teamwork on three. One, two, three!.</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Ditempa di jantung Meksiko, Reyna mendominasi pertarungan tunggal, melesat dengan setiap kill yang dicetaknya. Kemampuannya hanya dibatasi oleh keterampilan mentahnya, membuatnya sangat bergantung pada performa.</item>
+        <item>Mewakili negara asalnya, Korea Selatan, gaya bertarung Jett yang lincah dan suka menghindar membuatnya mampu mengambil risiko yang tidak bisa dilakukan orang lain. Dia berlari mengelilingi setiap pertarungan, memotong musuh bahkan sebelum mereka tahu apa yang menimpa mereka.</item>
+        <item>Yoru yang berasal dari Jepang ini melubangi kenyataan untuk menyusup ke garis musuh tanpa terlihat. Dengan menggunakan tipu daya dan agresi dalam ukuran yang sama, dia menjatuhkan setiap target sebelum mereka tahu ke mana harus mencari.</item>
+        <item>Berasal dari Inggris, kekuatan bintang Phoenix bersinar dalam gaya bertarungnya, membakar medan laga dengan kilatan dan suar. Apakah dia memiliki bantuan atau tidak, dia akan maju ke dalam pertarungan dengan caranya sendiri.</item>
+        <item>Raze meledak di Brasil dengan kepribadiannya yang besar dan senjata yang besar. Dengan gaya bermain blunt-force-trauma, dia unggul dalam menghajar musuh yang mengakar dan membersihkan ruang sempit dengan dosis "ledakan" yang besar.</item>
+        <item>Agen Filipina, Neon, melesat ke depan dengan kecepatan yang mengejutkan, mengeluarkan semburan cahaya bioelektrik secepat tubuhnya menghasilkannya. Dia berlari ke depan untuk membuat musuh lengah, lalu menyerang mereka lebih cepat dari kilat.</item>
+        <item>Pemecah masalah Cina yang disewa Iso masuk ke kondisi aliran untuk membongkar lawan. Mengkonfigurasi ulang energi sekitar menjadi perlindungan antipeluru, dia maju dengan fokus menuju duel berikutnya sampai mati.</item>
+        <item>Ahli kimia Amerika, Viper menggunakan serangkaian perangkat kimia beracun untuk mengendalikan medan perwar dan mencekik penglihatan musuh. Jika racunnya tidak membunuh mangsanya, permainan pikirannya pasti akan membunuhnya.</item>
+        <item>Bergabung dari Amerika Serikat, persenjataan orbital Brimstone memastikan pasukannya selalu memiliki keunggulan. Kemampuannya untuk memberikan bantuan secara tepat dan dari jarak jauh membuatnya menjadi komandan yang tak tertandingi.</item>
+        <item>Sebuah hantu dari sebuah memori, Omen berburu dalam bayang-bayang. Dia membuat musuh menjadi buta, berteleportasi melintasi lapangan, lalu membiarkan paranoia menguasai saat musuhnya berebut untuk mengetahui di mana dia akan menyerang berikutnya.</item>
+        <item>Agen Ghana Astra memanfaatkan energi kosmos untuk membentuk kembali medan perang sesuai keinginannya. Dengan perintah penuh atas bentuk astralnya dan bakat untuk melihat strategi yang mendalam, dia selalu berada ribuan tahun di depan langkah musuhnya.</item>
+        <item>Berasal dari pesisir India, Harbor menyerbu medan dengan menggunakan teknologi kuno yang menguasai air. Dia melepaskan buih-buih air dan ombak yang menghancurkan untuk melindungi sekutunya, atau menghantam mereka yang menentangnya.</item>
+        <item>Scottish troublemaker Clove makes mischief for enemies in both the heat of combat and the cold of death. The young immortal keeps foes guessing, even from beyond the grave, their return to the living only ever a moment away.</item>
+        <item>Pialang informasi Maroko, Cypher adalah jaringan pengawasan satu orang yang mengawasi setiap gerakan musuh. Tidak ada rahasia yang aman. Tidak ada manuve yang tidak terlihat. Cypher selalu mengawasi.</item>
+        <item>Si jenius dari Jerman, Killjoy dengan mudah mengamankan posisi-posisi penting di medan perang dengan berbagai penemuannya. Jika kerusakan mereka tidak membuat musuh-musuhnya mati, debuff yang diberikan robot-robotnya akan membuat mereka kalah dalam waktu singkat.</item>
+        <item>Sebagai benteng pertahanan Tiongkok, Sage menciptakan keamanan bagi dirinya dan timnya ke mana pun dia pergi. Mampu menghidupkan kembali teman yang jatuh dan menangkis serangan agresif, dia memberikan ketenangan di tengah pertarungan yang sengit.</item>
+        <item>Berpakaian rapi dan bersenjata lengkap, perancang senjata Prancis, Chamber, mengusir para penyerang dengan ketepatan yang mematikan. Dia memanfaatkan persenjataan khusus untuk mempertahankan garis pertahanan dan menghabisi musuh dari jauh, dengan rencana cadangan yang dibuat untuk setiap rencana.</item>
+        <item>Deadlock, operasi Norwegia, mengerahkan serangkaian kawat nano mutakhir untuk mengamankan medan perang dari serangan yang paling mematikan sekalipun. Tidak ada yang bisa lolos dari pengawasannya yang waspada, atau selamat dari keganasannya yang tak kenal menyerah.</item>
+        <item>Terlahir dari musim dingin abadi di tundra Rusia, Sova melacak, menemukan, dan menghabisi musuh dengan efisiensi dan ketepatan yang kejam. Busur khusus dan kemampuan pengintaiannya yang luar biasa memastikan bahwa meskipun Anda berlari, Anda tidak dapat bersembunyi.</item>
+        <item>Breach, si bionik Swedia, menembakkan ledakan kinetik yang kuat dan bertarget untuk secara agresif membuka jalan melalui tanah musuh. Kerusakan dan gangguan yang ditimbulkannya memastikan tidak ada pertarungan yang adil.</item>
+        <item>Berasal dari Australia, Skye dan kelompoknya merintis jalan melalui wilayah yang tidak bersahabat. Dengan kreasinya yang menghambat musuh, dan kekuatannya untuk menyembuhkan orang lain, tim ini menjadi yang terkuat dan teraman di sisi Skye.</item>
+        <item>KAY/O adalah mesin perang yang dibangun untuk satu tujuan: menetralkan radiasi. Kekuatannya untuk menekan kemampuan musuh membongkar kemampuan lawannya untuk melawan, sehingga memberikannya dan sekutu-sekutunya keunggulan tertinggi.</item>
+        <item>Pemburu bayaran asal Turki, Fade, melepaskan kekuatan mimpi buruk untuk merebut rahasia musuh. Selaras dengan teror itu sendiri, dia memburu target dan mengungkapkan ketakutan terdalam mereka - sebelum menghancurkan mereka dalam kegelapan.</item>
+        <item>Gekko si Angeleno memimpin kru makhluk-makhluk pembawa malapetaka. Teman-temannya bergerak maju, membuat musuh-musuh menyingkir, dan Gekko mengejar mereka untuk berkumpul kembali dan pergi lagi.</item>
+    </string-array>
+
+    <string-array name="data_sound">
+        <item>@raw/reynasound</item>
+        <item>@raw/jettsound</item>
+        <item>@raw/yorusound</item>
+        <item>@raw/phonexsound</item>
+        <item>@raw/razesound</item>
+        <item>@raw/neonsound</item>
+        <item>@raw/isosound</item>
+        <item>@raw/vipersound</item>
+        <item>@raw/brimstonesound</item>
+        <item>@raw/omensound</item>
+        <item>@raw/astrasound</item>
+        <item>@raw/harboursound</item>
+        <item>@raw/clovesound</item>
+        <item>@raw/cyphersound</item>
+        <item>@raw/killjoysound</item>
+        <item>@raw/sagesound</item>
+        <item>@raw/chambersound</item>
+        <item>@raw/deadlocksound</item>
+        <item>@raw/sovasound</item>
+        <item>@raw/breachsound</item>
+        <item>@raw/skyesound</item>
+        <item>@raw/kayosound</item>
+        <item>@raw/fadesound</item>
+        <item>@raw/geckosound</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/reyna</item>
+        <item>@drawable/jett</item>
+        <item>@drawable/yoruh</item>
+        <item>@drawable/phionix</item>
+        <item>@drawable/raze</item>
+        <item>@drawable/neon</item>
+        <item>@drawable/iso</item>
+        <item>@drawable/viper</item>
+        <item>@drawable/brimstone</item>
+        <item>@drawable/omen</item>
+        <item>@drawable/astra</item>
+        <item>@drawable/harbour</item>
+        <item>@drawable/clove</item>
+        <item>@drawable/cypher</item>
+        <item>@drawable/kiljoy</item>
+        <item>@drawable/sage</item>
+        <item>@drawable/chamber</item>
+        <item>@drawable/deadlock</item>
+        <item>@drawable/sova</item>
+        <item>@drawable/breach</item>
+        <item>@drawable/skye</item>
+        <item>@drawable/kayo</item>
+        <item>@drawable/fade</item>
+        <item>@drawable/gecko</item>
+    </integer-array>
+
+    <string-array name="data_role">
+        <item>Duelist</item>
+        <item>Duelist</item>
+        <item>Duelist</item>
+        <item>Duelist</item>
+        <item>Duelist</item>
+        <item>Duelist</item>
+        <item>Duelist</item>
+        <item>Smoker</item>
+        <item>Smoker</item>
+        <item>Smoker</item>
+        <item>Smoker</item>
+        <item>Smoker</item>
+        <item>Smoker</item>
+        <item>Sentinels</item>
+        <item>Sentinels</item>
+        <item>Sentinels</item>
+        <item>Sentinels</item>
+        <item>Sentinels</item>
+        <item>Initiator</item>
+        <item>Initiator</item>
+        <item>Initiator</item>
+        <item>Initiator</item>
+        <item>Initiator</item>
+        <item>Initiator</item>
+    </string-array>
+
+    <string-array name="data_origin">
+        <item>Mexico</item>
+        <item>South Korea</item>
+        <item>Japan</item>
+        <item>United Kingdom</item>
+        <item>Brazil</item>
+        <item>Philippines</item>
+        <item>China</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>Earth</item>
+        <item>Ghana</item>
+        <item>India</item>
+        <item>United Kingdom</item>
+        <item>Morocco</item>
+        <item>Germany</item>
+        <item>China</item>
+        <item>France</item>
+        <item>Norway</item>
+        <item>Russia</item>
+        <item>Sweden</item>
+        <item>Australia</item>
+        <item>Alternate Timeline Earth</item>
+        <item>Turkey</item>
+        <item>United States</item>
+    </string-array>
+
+    <integer-array name="data_photobg">
+        <item>@drawable/reynabg</item>
+        <item>@drawable/jettbg</item>
+        <item>@drawable/yorubg</item>
+        <item>@drawable/phionixbg</item>
+        <item>@drawable/neonbg</item>
+        <item>@drawable/razebg</item>
+        <item>@drawable/isobg</item>
+        <item>@drawable/viperbg</item>
+        <item>@drawable/brimstonebg</item>
+        <item>@drawable/omenbg</item>
+        <item>@drawable/astrabg</item>
+        <item>@drawable/harbourbg</item>
+        <item>@drawable/clovebg</item>
+        <item>@drawable/cypherbg</item>
+        <item>@drawable/kiljoybg</item>
+        <item>@drawable/sagebg</item>
+        <item>@drawable/chamberbg</item>
+        <item>@drawable/deadlockbg</item>
+        <item>@drawable/sovabg</item>
+        <item>@drawable/breachbg</item>
+        <item>@drawable/skyebg</item>
+        <item>@drawable/kayobg</item>
+        <item>@drawable/fadebg</item>
+        <item>@drawable/geckobg</item>
+    </integer-array>
+
+    <string-array name="data_deskripsividio">
+        <item>"SOUL HARVEST -PASSIVE\n\tEnemies that die to Reyna, or die within 3 seconds of taking damage from Reyna, leave behind Soul Orbs that last 3 seconds.\n\nQ. DEVOUR\n\tMusuh yang dibunuh oleh Reyna meninggalkan Soul Orbs yang bertahan selama 3 detik. Secara instan mengkonsumsi Soul Orb di dekatnya, menyembuhkan dengan cepat dalam waktu singkat. Health yang diperoleh melalui skill ini melebihi 100 akan berkurang seiring waktu. Jika EMPRESS aktif, skill ini akan secara otomatis melemparkan dan tidak mengkonsumsi bola.\n\nE. DISMISS\n\tINSTAN mengkonsumsi soul orb terdekat, menjadi tidak berwujud untuk durasi yang singkat. Jika EMPRESS aktif, juga menjadi tidak terlihat.\n\nC. LEER\n\tMELENGKAPI mata yang dapat dihancurkan secara halus. AKTIFKAN untuk melemparkan mata ke depan dalam jarak pendek. Mata akan melihat dari dekat semua musuh yang melihatnya.\n\nX. EMPRESS\n\tLangsung masuk ke dalam hiruk pikuk, meningkatkan kecepatan tembak, perlengkapan, dan kecepatan isi ulang secara dramatis. Mencetak kill akan memperbaharui durasi."</item>
+        <item>"SPACE - PASSIVE\n\tMenahan tombol lompat saat jatuh memungkinkan Anda meluncur di udara.\n\nQ. UPDRAFT\n\tLangsung mendorong Jett tinggi ke udara.\n\nE. TAILWIND\n\tAKTIFKAN untuk menyiapkan hembusan angin dalam waktu yang terbatas. GUNAKAN kembali angin untuk mendorong Jett ke arah dia bergerak. Jika Jett diam, dia akan bergerak maju. Pengisian daya Tailwind akan di-reset setiap dua kali membunuh.\n\nC. CLOUDBURST\n\tMelempar proyektil yang mengembang menjadi awan yang menghalangi pandangan secara singkat saat berbenturan dengan permukaan. TAHAN tombol kemampuan untuk melengkungkan asap ke arah garis bidik Anda.\n\nX. BLADE STORM\n\tLengkapi satu set pisau lempar yang sangat akurat. FIRE untuk melempar satu pisau dan mengisi ulang pisau saat membunuh. ALT FIRE untuk melempar semua belati yang tersisa tetapi tidak mengisi ulang saat membunuh."</item>
+        <item>"Q. BLINDSIDE\n\tEQUIP untuk merobek fragmen dimensi yang tidak stabil dari realitas. FIRE untuk melempar fragmen, mengaktifkan flash yang akan menyala setelah bertabrakan dengan permukaan yang keras di dunia.\n\nE. GATECRASH\n\tLengkapi penambat celah FIRE untuk mengirim penambat ke depan. ALT FIRE untuk menempatkan tambatan yang tidak bergerak. AKTIFKAN untuk berteleportasi ke lokasi penambatan. GUNAKAN untuk memicu teleportasi palsu\n\nC. FAKEOUT\n\tMELENGKAPI gema yang berubah menjadi gambar cermin Yoru saat diaktifkan FIRE untuk mengaktifkan gambar cermin secara instan dan mengirimkannya ke depan ALT FIRE untuk menempatkan gema yang tidak aktif GUNAKAN untuk mengubah gema yang tidak aktif menjadi gambar cermin dan mengirimkannya ke depan. Gambar cermin akan meledak dalam kilatan cahaya yang menyilaukan ketika dihancurkan oleh musuh.\n\nX. DIMENSIONAL DRIFT\n\tLENGKAPI topeng yang dapat melihat antar dimensi. FIRE untuk melayang ke dalam dimensi Yoru, tidak dapat terpengaruh atau terlihat oleh musuh dari luar. AKTIFKAN untuk keluar dari dimensi Yoru lebih awal."</item>
+        <item>"HEATING UP - PASSIVE\n\tPASSIVELY Heal Phoenix instead of taking damage when standing in Phoenix's own fire. Healing 50 HP total over full duration of each ability\n\nQ. CURVEBALL\n\tMelengkapi bola suar yang mengambil jalur melengkung dan meledak sesaat setelah dilempar. FIRE untuk melengkungkan bola suar ke kiri, meledakkan dan membutakan pemain yang melihat bola tersebut. ALTERNATE FIRE untuk melengkungkan bola suar ke kanan.\n\nE. HOT HANDS\n\tMELENGKAPI bola api. FIRE untuk melempar bola api yang meledak setelah jangka waktu tertentu atau saat menyentuh tanah, menciptakan zona api yang bertahan lama yang merusak musuh.\n\nC. BLAZE\n\tMelengkapi dinding api. FIRE untuk membuat garis api yang bergerak maju, menciptakan dinding api yang menghalangi penglihatan dan merusak pemain yang melewatinya. TAHAN API untuk membengkokkan dinding ke arah garis bidik Anda.\n\nX. RUN IT BACK\n\tLetakkan penanda di lokasi Phoenix. Saat kemampuan ini aktif, mati atau membiarkan timer berakhir akan mengakhiri kemampuan ini dan membawa Phoenix kembali ke lokasi ini dengan kesehatan penuh."</item>
+        <item>"Q. BLAST PACK\n\tLemparkan Blast Pack secara instan yang akan menempel di permukaan. GUNAKAN kembali kemampuan ini setelah digunakan untuk meledakkan, merusak, dan memindahkan apa pun yang terkena. Raze tidak rusak oleh kemampuan ini, tetapi masih akan menerima kerusakan jatuh jika diluncurkan cukup jauh.\n\nE. PAINT SHELLS\n\tMelengkapi granat cluster. FIRE untuk melempar granat, yang memberikan kerusakan dan menciptakan sub-munisi, masing-masing memberikan kerusakan pada siapa pun yang berada dalam jangkauannya. ALT FIRE untuk melempar. Paint Shells mengisi ulang setiap dua kali membunuh.\n\nC. BOOM BOT\n\tLengkapi sebuah Boom Bot. FIRE akan mengerahkan bot tersebut, menyebabkannya bergerak dalam garis lurus di tanah, memantul dari dinding. Boom Bot akan mengunci musuh yang berada di kerucut depannya dan mengejar mereka, meledak untuk memberikan kerusakan besar jika mencapai mereka.\n\nX. SHOWSTOPPER\n\tMelengkapi peluncur roket. FIRE untuk menembakkan roket yang memberikan kerusakan area yang sangat besar saat bersentuhan dengan apa pun."</item>
+        <item>"Q. RELAY BOLT\n\tLemparkan baut energi yang memantul satu kali. Setelah mengenai setiap permukaan, baut akan menggetarkan tanah di bawahnya dengan ledakan yang dahsyat.\n\nE. HIGH GEAR\n\tMenyalurkan tenaga Neon secara instan untuk meningkatkan kecepatan. Saat terisi, ALT FIRE untuk memicu perosotan listrik. Muatan slide akan terisi ulang setiap dua kali membunuh.\n\nC. FAST LANE\n\tFIRE dua garis energi ke depan di tanah yang memanjang dalam jarak pendek atau hingga menyentuh permukaan. Garis-garis tersebut naik menjadi dinding listrik statis yang menghalangi penglihatan dan merusak musuh yang melewatinya.\n\nX. OVERDRIVE\n\tMelepaskan kekuatan dan kecepatan penuh Neon untuk durasi yang singkat. FIRE untuk menyalurkan kekuatan menjadi sinar petir yang mematikan dengan akurasi gerakan yang tinggi. Durasi diatur ulang pada setiap pembunuhan."</item>
+        <item>"Q. UNDERCUT\n\tMelengkapi sebuah baut molekuler. Tembak untuk melemparkannya ke depan, memberikan FRAGILE singkat ke semua pemain yang disentuhnya. Baut dapat menembus benda padat, termasuk dinding.\n\nE. DOUBLE TAP\n\tMemulai pengatur waktu fokus. Setelah selesai, masuk ke kondisi aliran di mana musuh yang jatuh yang Anda bunuh atau rusak akan menghasilkan bola energi. Menembak bola ini akan memberi Anda perisai yang menyerap satu contoh kerusakan dari sumber mana pun.\n\nC. CONTINGENCY\n\tEQUIP untuk mengumpulkan energi prismatik. FIRE untuk mendorong dinding energi yang tidak bisa dihancurkan ke depan yang menghalangi peluru.\n\nX. KILL CONTRACT\n\tMELENGKAPI arena interdimensi. FIRE untuk melemparkan kolom energi melalui medan perang, menarik Anda dan musuh pertama yang terkena serangan ke dalam arena. Anda dan lawan berduel sampai mati."</item>
+        <item>"Q. POISON CLOUD\n\tMELENGKAPI pemancar gas. KEBAKARAN untuk melemparkan emitor yang terus-menerus tetap ada sepanjang putaran. GUNAKAN KEMBALI kemampuan untuk membuat awan gas beracun dengan biaya bahan bakar. Kemampuan ini dapat diambil untuk DIGUNAKAN KEMBALI sebelum ronde dimulai dan dapat DIGUNAKAN KEMBALI lebih dari satu kali sepanjang ronde.\n\nE. TOXIC SCREEN\n\tMelengkapi peluncur pemancar gas. BAKAR untuk menyebarkan barisan panjang pemancar gas. GUNAKAN KEMBALI kemampuan untuk membuat dinding tinggi gas beracun dengan biaya bahan bakar. Kemampuan ini dapat DIGUNAKAN KEMBALI lebih dari satu kali.\n\nC. SNAKE BITE\n\tMELENGKAPI peluncur bahan kimia. FIRE untuk meluncurkan tabung yang akan pecah saat menyentuh lantai, menciptakan zona kimia yang bertahan lama yang merusak dan memperlambat musuh.\n\nX. VIPER'S PIT\n\tMelengkapi penyemprot bahan kimia. FIRE untuk menyemprotkan awan kimia ke segala arah di sekitar Viper, menciptakan awan besar yang mengurangi jarak pandang dan kesehatan maksimum pemain di dalamnya."</item>
+        <item>"Q. INCENDIARY\n\tMelengkapi peluncur granat pembakar. FIRE untuk meluncurkan granat yang meledak saat berhenti di lantai, menciptakan zona api yang bertahan lama yang merusak pemain di dalam zona tersebut.\n\nE. SKY SMOKE\n\tMELENGKAPI peta taktis. FIRE untuk mengatur lokasi di mana awan asap Brimstone akan mendarat. ALT FIRE untuk mengonfirmasi, meluncurkan awan asap yang tahan lama yang menghalangi penglihatan di area yang dipilih\n\nC. STIM BEACON\n\tMelengkapi suar stim. FIRE untuk melemparkan suar stim di depan Brimstone. Saat mendarat, stim beacon akan menciptakan bidang yang memberikan pemain RapidFire.\n\nX. ORBITAL STRIKE\n\tMELENGKAPI peta taktis. FIRE untuk meluncurkan laser serangan orbital yang bertahan lama di lokasi yang dipilih, memberikan kerusakan yang tinggi dari waktu ke waktu kepada pemain yang terjebak di area yang dipilih."</item>
+        <item>"Q. PARANOIA\n\tMenembakkan proyektil bayangan ke depan, mengurangi jarak pandang semua pemain yang disentuhnya secara singkat. Proyektil ini dapat menembus dinding.\n\nE. DARK COVER\n\tLENGKAPI bola bayangan, memasuki dunia bertahap untuk menempatkan dan menargetkan bola. TEKAN tombol kemampuan untuk melempar bola bayangan ke lokasi yang ditandai, menciptakan bola bayangan tahan lama yang menghalangi penglihatan. TAHAN TEMBAK saat menargetkan untuk memindahkan penanda lebih jauh. TAHAN ALT FIRE sambil menargetkan untuk memindahkan penanda lebih dekat. TEKAN RELOAD untuk beralih ke tampilan penargetan normal\n\nC. SHROUDED STEP\n\tLengkapi kemampuan berjalan bayangan dan lihat indikator jangkauannya. TEMBAK untuk memulai saluran singkat, lalu berteleportasi ke lokasi yang ditandai.\n\nX. FROM THE SHADOWS\n\tLENGKAPI peta taktis. FIRE untuk mulai berteleportasi ke lokasi yang dipilih. Saat berteleportasi, Omen akan muncul sebagai Shade yang dapat dihancurkan oleh musuh untuk membatalkan teleportasinya."</item>
+        <item>"Q. NOVA PULSE\n\tMenembakkan proyektil bayangan ke depan, mengurangi jarak pandang semua pemain yang disentuhnya secara singkat. Proyektil ini dapat menembus dinding.\n\nE. NEBULA\n\tLENGKAPI bola bayangan, memasuki dunia bertahap untuk menempatkan dan menargetkan bola. TEKAN tombol kemampuan untuk melempar bola bayangan ke lokasi yang ditandai, menciptakan bola bayangan tahan lama yang menghalangi penglihatan. TAHAN TEMBAK saat menargetkan untuk memindahkan penanda lebih jauh. TAHAN ALT FIRE sambil menargetkan untuk memindahkan penanda lebih dekat. TEKAN RELOAD untuk beralih ke tampilan penargetan normal.\n\nC. GRAVITY WELL\n\tX. Place Stars in Astral Form ACTIVATE a Star to form a Gravity Well. Players in the area are pulled toward the center before it explodes, making all players still trapped inside Vulnerable.\n\nX. ASTRAL FORM / COSMIC DIVIDE\n\tACTIVATE to enter Astral Form where you can place Stars with FIRE. Stars can be reactivated later, transforming them into a Nova Pulse, Nebula, or Gravity Well. When Cosmic Divide is charged, use ALT FIRE in Astral Form to begin aiming it, then FIRE to select two locations. An infinite Cosmic Divide connects the two points you select. Cosmic Divide blocks bullets and heavily dampens audio."</item>
+        <item>"Q. COVE\n\tMelengkapi bola air pelindung. FIRE untuk melempar. ALT FIRE untuk melempar di bawah tangan. Saat mengenai tanah, keluarkan perisai air yang dapat dirusak yang memblokir peluru\n\nE. HIGH TIDE\n\tLengkapi dinding air. TEMBAK untuk mengirimkan air ke depan di sepanjang tanah. TAHAN TEMBAK untuk memandu air ke arah garis bidik Anda, melewati dunia, memunculkan dinding di sepanjang jalur air. ALT FIRE sambil membungkuk untuk menghentikan air lebih awal. Pemain yang tertembak akan MELAMBAT\n\nC. CASCADE\n\tLengkapi gelombang air. FIRE untuk mengirim gelombang bergulir ke depan dan menembus dinding. GUNAKAN KEMBALI untuk menghentikan gelombang. Pemain yang terkena akan TERLAMBAT.\n\nX. RECKONING\n\tMengisi kekuatan penuh dari Artefak Anda. API untuk memanggil kolom geyser di tanah. Pemain musuh di area tersebut akan menjadi target serangan geyser secara beruntun. Pemain yang terjebak dalam serangan akan TERTANGKAP."</item>
+        <item>"Q. MEDDLE\n\tMELENGKAPI sebuah fragmen esensi keabadian. FIRE untuk melempar fragmen, yang meletus setelah penundaan singkat dan untuk sementara waktu meluruhkan semua target yang terperangkap di dalamnya.\n\nRUSE (E)\n\tEQUIP untuk melihat medan perang. FIRE untuk menentukan lokasi di mana awan Clove akan mengendap. ALT FIRE untuk mengonfirmasi, meluncurkan awan yang menghalangi penglihatan di area yang dipilih. Clove dapat menggunakan kemampuan ini setelah mati.\n\nC. PICK-ME-UP\n\tSecara instan menyerap kekuatan hidup dari musuh yang jatuh yang Clove rusak atau bunuh, mendapatkan kesehatan sementara\n\nX. NOT DEAD YET\n\tSetelah mati, AKTIFKAN untuk membangkitkan. Setelah dibangkitkan, Clove harus mendapatkan satu kill atau bantuan yang merusak dalam waktu yang ditentukan atau mereka akan mati."</item>
+        <item>"Q. CYBER CAGE\n\tLemparkan sangkar cyber secara instan di depan Cypher. Aktifkan untuk membuat zona yang menghalangi penglihatan dan memperlambat musuh yang melewatinya.\n\nE. SPYCAM\n\tMelengkapi sebuah spycam. TEMBAK untuk menempatkan spycam di lokasi yang ditargetkan. GUNAKAN kembali kemampuan ini untuk mengendalikan pandangan kamera. Saat mengendalikan kamera, FIRE untuk menembakkan anak panah penanda. Anak panah ini akan mengungkapkan lokasi pemain mana pun yang terkena anak panah. Kemampuan ini dapat diambil untuk DIGUNAKAN KEMBALI.\n\nC. TRAPWIRE\n\tMELENGKAPI sebuah kawat jebakan. FIRE untuk menempatkan tripwire yang dapat dirusak dan terselubung di lokasi yang ditargetkan, menciptakan garis yang membentang antara lokasi yang ditempatkan dan dinding di seberangnya. Pemain musuh yang melintasi kawat jebakan akan tertambat, terungkap, dan linglung setelah beberapa saat jika mereka tidak menghancurkan perangkat tersebut tepat waktu. Kemampuan ini dapat diambil untuk digunakan kembali.\n\nX. NEURAL THEFT\n\tGunakan secara INSTAN pada pemain musuh yang mati di garis bidik Anda untuk mengungkapkan lokasi semua pemain musuh yang masih hidup."</item>
+        <item>"Q. ALARMBOT\n\tMELENGKAPI Alarmbot rahasia. FIRE untuk mengerahkan bot yang memburu musuh yang berada dalam jangkauan. Setelah mencapai targetnya, bot akan meledak dan menerapkan Vulernable. TAHAN EQUIP untuk memanggil kembali bot yang digunakan.\n\nE. TURRET\n\tLengkapi sebuah Turret. FIRE untuk menggunakan turret yang menembaki musuh dalam bentuk kerucut 180 derajat. TAHAN EQUIP untuk memanggil kembali turret yang digunakan.\n\nC. NANOSWARM\n\tLengkapi granat Nanoswarm. TEMBAK untuk melempar granat. Saat mendarat, Nanoswarm akan bersembunyi. AKTIFKAN Nanoswarm untuk mengerahkan segerombolan robot nano yang merusak.\n\nX. LOCKDOWN\n\tLENGKAPI perangkat Penguncian. Nyalakan perangkat untuk menyebarkan perangkat. Setelah waktu yang lama, perangkat akan menahan semua musuh yang terperangkap dalam radius. Perangkat dapat dihancurkan oleh musuh."</item>
+        <item>"Q. SLOW ORB\n\tMELENGKAPI bola yang melambat. FIRE untuk melempar bola perlambatan ke depan yang akan meledak saat mendarat, menciptakan medan yang bertahan lama yang memperlambat pemain yang terperangkap di dalamnya.\n\nE. HEALING ORB\n\tMelengkapi bola penyembuh. TEMBAKKAN dengan garis bidikmu ke sekutu yang terluka untuk mengaktifkan penyembuhan dari waktu ke waktu. ALT FIRE saat Sage terkena damage untuk mengaktifkan self healing.\n\nC. BARRIER ORB\n\tLengkapi sebuah bola penghalang. FIRE menempatkan dinding yang kokoh. ALT FIRE memutar targeter.\n\nX. RESURRECTION\n\tMelengkapi kemampuan kebangkitan. FIRE dengan garis bidik Anda ditempatkan di atas sekutu yang mati untuk mulai menghidupkan kembali mereka. Setelah saluran singkat, sekutu akan dihidupkan kembali dengan kesehatan penuh."</item>
+        <item>"Q. HEADHUNTER\n\tAKTIFKAN untuk melengkapi pistol yang berat. ALT FIRE dengan pistol yang dilengkapi untuk membidik sasaran.\n\nE. RENDEZVOUS\n\tLengkapi jangkar teleportasi. FIRE untuk menempatkannya di tanah. Saat berada di tanah dan dalam jangkauan jangkar, AKTIFKAN untuk berteleportasi dengan cepat ke jangkar. Jangkar dapat diambil untuk ditempatkan kembali.\n\nC. TRADEMARK\n\tLengkapi jebakan yang memindai musuh. BAKAR untuk meletakkannya di tanah. Ketika musuh yang terlihat berada dalam jangkauan, jebakan akan menghitung mundur dan kemudian mengacaukan medan di sekitar mereka, menciptakan medan yang memperlambat pemain yang terperangkap di dalamnya. Jebakan dapat diambil untuk DIPINDAHKAN.\n\nX. TOUR DE FORCE\n\tAKTIFKAN untuk memanggil senapan sniper khusus yang kuat yang akan membunuh musuh dengan serangan langsung ke tubuh bagian atas. ALT FIRE untuk membidik sasaran. Membunuh musuh akan menciptakan medan yang akan memperlambat pemain yang terjebak di dalamnya."</item>
+        <item>"Q. SONIC SENSOR\n\tMELENGKAPI Sensor Sonic. KEBAKARAN untuk digunakan. Sensor memonitor area untuk mencari musuh yang mengeluarkan suara. Sensor ini akan mengosongkan area tersebut jika terdeteksi adanya langkah kaki, tembakan senjata, atau suara yang signifikan.\n\nE. BARRIER MESH\n\tLengkapi cakram Barrier Mesh. API untuk melempar ke depan. Saat mendarat, cakram tersebut menghasilkan penghalang dari titik asal yang menghalangi gerakan karakter.\n\nC. GRAVNET\n\tLengkapi granat GravNet. FIRE untuk melempar. ALT FIRE untuk melemparkan granat ke bawah. GravNet akan meledak saat mendarat, memaksa musuh yang terperangkap di dalamnya untuk berjongkok dan bergerak perlahan.\n\nX. ANNIHILATION\n\tLengkapi dengan Akselerator Kawat Nano. FIRE untuk melepaskan denyut kawat nano yang menangkap musuh pertama yang terkena. Musuh yang terkurung akan ditarik di sepanjang jalur kawat nano dan akan mati jika mereka mencapai ujungnya, kecuali jika mereka dibebaskan. Kepompong kawat nano dapat dihancurkan."</item>
+        <item>"Q. SHOCK BOLT\n\tLengkapi busur dengan baut kejut. TEMBAK untuk mengirim baut peledak ke depan, meledak saat bertabrakan dan merusak pemain di dekatnya. TAHAN TEMBAK untuk memperpanjang jangkauan proyektil. ALT FIRE untuk menambahkan hingga dua pantulan pada anak panah ini.\n\nE. RECON BOLT\n\tLengkapi busur dengan baut pengintai. FIRE untuk mengirim baut pengintai ke depan, aktif pada saat tabrakan dan mengungkapkan lokasi musuh terdekat yang tertangkap dalam garis pandang baut. Musuh dapat menghancurkan baut ini. TAHAN TEMBAK untuk memperpanjang jangkauan proyektil. ALT FIRE untuk menambahkan hingga dua pantulan pada panah ini.\n\nC. OWL DRONE\n\tLengkapi drone burung hantu. FIRE untuk mengerahkan dan mengendalikan pergerakan drone. Saat mengendalikan drone, FIRE untuk menembakkan anak panah penanda. Anak panah ini akan mengungkapkan lokasi pemain mana pun yang terkena anak panah tersebut. Musuh dapat menghancurkan Drone Burung Hantu.\n\nX. HUNTER'S FURY\n\tLengkapi busur dengan tiga ledakan energi jarak jauh yang menembus dinding. FIRE untuk melepaskan ledakan energi dalam satu barisan di depan Sova, memberikan kerusakan dan mengungkapkan lokasi musuh yang terjebak dalam barisan. Kemampuan ini dapat DIGUNAKAN KEMBALI hingga dua kali selama pengatur waktu kemampuan aktif."</item>
+        <item>"Q. FLASHPOINT\n\tLengkapi muatan yang menyilaukan. TEMBAKKAN muatan untuk mengatur ledakan yang bekerja cepat menembus dinding. Muatan akan meledak untuk membutakan semua pemain yang melihatnya.\n\nE. FAULT LINE\n\tLENGKAPI ledakan seismik. TAHAN TEMBAK untuk menambah jarak. LEPAS untuk memicu gempa, membutakan semua pemain yang berada di zonanya dan berbaris menuju zona tersebut.\n\nC. AFTERSHOCK\n\tLengkapi muatan fusi. TEMBAKKAN muatan untuk membuat ledakan yang bergerak lambat menembus dinding. Ledakan tersebut memberikan kerusakan besar pada siapa pun yang terjebak di areanya.\n\nX. ROLLING THUNDER\n\tLengkapi dengan muatan seismik. FIRE untuk mengirimkan gempa bertingkat melalui semua medan dalam bentuk kerucut besar. Gempa ini membuat bingung dan melumpuhkan siapa pun yang terjebak di dalamnya."</item>
+        <item>"Q. TRAILBLAZER\n\tPERLENGKAP perhiasan harimau Tasmania. FIRE untuk mengirimkan dan mengendalikan pemangsa. Saat memegang kendali, FIRE untuk melompat ke depan, meledak dalam ledakan dahsyat dan merusak musuh yang terkena serangan langsung.\n\nE. GUIDING LIGHT\n\tLengkapi perhiasan elang. BAKAR untuk mengirimnya ke depan. TAHAN TEMBAKAN untuk memandu elang ke arah garis bidik Anda. GUNAKAN KEMBALI saat elang sedang terbang untuk mengubahnya menjadi kilatan yang memainkan konfirmasi serangan jika musuh berada dalam jangkauan dan garis pandang.\n\nC. REGROWTH\n\tLengkapi perhiasan penyembuh. TAHAN API untuk menyalurkan, menyembuhkan sekutu dalam jangkauan dan garis pandang. Dapat digunakan kembali sampai kolam penyembuhannya habis. Skye tidak dapat menyembuhkan dirinya sendiri.\n\nX. SEEKERS\n\tLengkapi perhiasan Seeker. FIRE untuk mengirimkan tiga Seeker untuk melacak tiga musuh terdekat. Jika Pencari mencapai targetnya, ia akan mendekati mereka. Musuh dapat menghancurkan para Pencari."</item>
+        <item>"Q. FLASH/DRIVE\n\tMELENGKAPI granat flash. FIRE untuk melempar dengan tangan kosong. ALT FIRE untuk melemparkan versi yang lebih lemah yang meledak dengan cepat. Granat kilat akan meledak setelah sekering yang singkat, membutakan siapa pun yang berada dalam jarak pandang.\n\nE. ZEROPOINT\n\tMELENGKAPI pisau penekan. BAKAR untuk dilempar. Bilahnya menempel pada permukaan pertama yang terkena, berputar, dan menekan siapa pun dalam radius ledakan. Musuh dapat menghancurkan bilah ini.\n\nC. FRAGMENT\n\tMelengkapi fragmen yang mudah meledak. API untuk dilempar. Fragmen tersebut akan menempel di lantai dan meledak beberapa kali, memberikan kerusakan yang hampir mematikan di bagian tengah dengan setiap ledakan.\n\nX. NULL/CMD\n\tINSTAN membebani dengan energi radianit terpolarisasi yang berdenyut dari KAY/O dalam radius yang sangat besar. Musuh yang terkena pulsa akan tertekan dalam waktu singkat. Saat kelebihan beban, KAY/O mendapatkan Combat Stim dan dapat distabilkan kembali jika jatuh."</item>
+        <item>"Q. SEIZE\n\tMelengkapi bola tinta mimpi buruk. FIRE untuk melempar bola yang akan jatuh ke tanah setelah jangka waktu tertentu. Saat menyentuh tanah, tinta akan meledak dan menciptakan zona di mana musuh yang terperangkap di dalamnya tidak dapat melarikan diri dari zona tersebut dengan cara normal. GUNAKAN KEMBALI kemampuan untuk menjatuhkan proyektil di awal penerbangan\n\nE. HAUNT\n\tMelengkapi entitas mimpi buruk. FIRE untuk melempar bola yang akan jatuh ke tanah setelah jangka waktu tertentu. Setelah menyentuh tanah, bola akan berubah menjadi entitas mimpi buruk yang akan mengungkapkan lokasi musuh yang tertangkap dalam garis pandangnya. Musuh dapat menghancurkan entitas ini. GUNAKAN kembali kemampuan untuk menjatuhkan proyektil di awal penerbangan.\n\nC. PROWLER\n\tLengkapi Prowler. FIRE akan mengirim Prowler keluar, menyebabkannya bergerak dalam garis lurus. Prowler akan mengunci musuh atau jejak apa pun di kerucut penglihatan depan dan mengejar mereka, menembaki mereka jika mencapai mereka. TAHAN tombol TEMBAK untuk mengarahkan Prowler ke arah garis bidik Anda.\n\nX. NIGHTFALL\n\tLengkapi kekuatan Ketakutan. FIRE untuk mengirimkan gelombang energi mimpi buruk yang dapat menembus dinding. Energi tersebut menciptakan jejak ke lawan serta menulikan dan membusukkan mereka."</item>
+        <item>"Q. WINGMAN\n\tLengkapi Wingman. FIRE untuk mengirim Wingman ke depan mencari musuh. Wingman melepaskan ledakan keras ke arah musuh pertama yang dilihatnya. ALT FIRE saat menargetkan lokasi Spike atau Spike yang ditanam agar Wingman menjinakkan atau menanam Spike. Untuk menanam, Gekko harus memiliki Spike di dalam inventarisnya. Ketika Wingman berakhir, dia kembali ke globule yang tidak aktif. BERTINDAK untuk merebut kembali globule tersebut dan mendapatkan biaya Wingman lain setelah cooldown singkat.\n\nE. DIZZY\n\tLengkapi Dizzy. FIRE untuk mengirim Dizzy melayang ke depan di udara. Dizzy mengisi daya kemudian melepaskan ledakan plasma ke arah musuh yang berada dalam jarak pandang. Musuh yang terkena plasma akan mengalami kebutaan. Ketika Dizzy habis, dia kembali ke globule yang tidak aktif. BERINTERAKSI untuk merebut kembali globule tersebut dan mendapatkan serangan Dizzy lainnya setelah cooldown singkat.\n\nC. MOSH PIT\n\tLengkapi Mosh. FIRE untuk melempar Mosh seperti granat. ALT FIRE untuk melempar di bawah tangan. Setelah mendarat, Mosh akan menduplikasi di area yang luas dan kemudian meledak setelah jeda singkat.\n\nX. THRASH\n\tLengkapi Thrash. FIRE untuk terhubung dengan pikiran Thrash dan mengarahkannya melalui wilayah musuh. AKTIFKAN untuk menerjang ke depan dan meledak, menahan musuh dalam radius kecil. Ketika Thrash berakhir, dia kembali ke globule yang tidak aktif. BERINTERAKSI untuk merebut kembali globule tersebut dan mendapatkan serangan Thrash lagi setelah cooldown singkat. Thrash dapat direbut kembali satu kali."</item>
+    </string-array>
+</resources>
