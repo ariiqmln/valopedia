@@ -235,7 +235,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_marginTop="44dp"
                         android:fontFamily="@font/poppins_extrabold"
-                        android:text="Save"
+                        android:text="Bookmark"
                         android:textColor="@color/maroon"
                         android:textSize="30sp"
                         app:layout_constraintEnd_toEndOf="parent"

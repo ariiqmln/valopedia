@@ -6,7 +6,9 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -47,13 +49,15 @@ class MainActivity : AppCompatActivity() {
     private lateinit var videoUrls: MutableList<String> // Tambahkan ini
     private lateinit var searchView: SearchView
     private lateinit var rvHeroes: RecyclerView
+    private lateinit var tvNoResults: TextView // Tambahkan ini
     private val list = ArrayList<Hero>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        searchView=findViewById(R.id.searchView)
+        searchView = findViewById(R.id.searchView)
+        tvNoResults = findViewById(R.id.tv_no_results) // Inisialisasi TextView
 
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
@@ -66,16 +70,16 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-        val buttonback =findViewById<ImageView>(R.id.back_button)
-        buttonback.setOnClickListener{
-            startActivity(Intent(this,MainMenuActivity::class.java))
+        val buttonback = findViewById<ImageView>(R.id.back_button)
+        buttonback.setOnClickListener {
+            startActivity(Intent(this, MainMenuActivity::class.java))
         }
 
         // Inisialisasi Firebase
         FirebaseApp.initializeApp(this)
 
-        val prfileImage : ImageView = findViewById(R.id.foto_about)
-        prfileImage.setOnClickListener{
+        val prfileImage: ImageView = findViewById(R.id.foto_about)
+        prfileImage.setOnClickListener {
             val intent = Intent(this, Author::class.java)
             startActivity(intent)
         }
@@ -90,15 +94,25 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun filterList(query: String?) {
-        val filteredListFauna = if (query.isNullOrEmpty()) {
+        val filteredList = if (query.isNullOrEmpty()) {
             list
         } else {
             list.filter { heroes ->
                 heroes.name.toLowerCase(Locale.ROOT).contains(query.toLowerCase(Locale.ROOT))
             }
         }
-        // Update RecyclerView with filtered list
-        val adapter = ListHeroAdapter(ArrayList(filteredListFauna), videoUrls)
+
+        // Tampilkan atau sembunyikan TextView berdasarkan hasil pencarian
+        if (filteredList.isEmpty()) {
+            rvHeroes.visibility = View.GONE
+            tvNoResults.visibility = View.VISIBLE
+        } else {
+            rvHeroes.visibility = View.VISIBLE
+            tvNoResults.visibility = View.GONE
+        }
+
+        // Update RecyclerView dengan daftar yang telah difilter
+        val adapter = ListHeroAdapter(ArrayList(filteredList), videoUrls)
         rvHeroes.adapter = adapter
     }
 
@@ -107,7 +121,7 @@ class MainActivity : AppCompatActivity() {
         videoUrls = MutableList(videoPaths.size) { "" } // Inisialisasi dengan ukuran yang sama dan nilai default
         val latch = CountDownLatch(videoPaths.size)
 
-        videoPaths.forEachIndexed { index,path ->
+        videoPaths.forEachIndexed { index, path ->
             val fullPath = "$path"
             Log.d("MainActivity", "Trying to fetch URL for: $fullPath")
             val videoRef = storageReference.child(fullPath)
